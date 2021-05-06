@@ -34,6 +34,8 @@ h1 {
   float: left;
   width: 33.33%;
   display: none; /* Hide all elements by default */
+  padding-bottom: 10px;
+  padding-right: 10px;
 }
 
 /* Clear floats after rows */ 
@@ -47,6 +49,21 @@ h1 {
 .content {
   background-color: white;
   padding: 10px;
+}
+
+.img {
+  border-radius: 2px;
+  box-shadow: 0 0 5px #343436;
+  filter:brightness(1.1);
+  height: 300px;
+  width: 400px;
+}
+
+.img-pg-content {
+  background-color: white;
+  padding: 10px;
+  width:1280px;
+  height:1000px;
 }
 
 /* The "show" class is added to the filtered elements */
